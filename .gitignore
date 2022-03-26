@@ -140,3 +140,5 @@ dmypy.json
 .csv
 /NN_save
 /locals_crash
+.DS_Store
+/DM_test
