@@ -142,3 +142,4 @@ dmypy.json
 /locals_crash
 .DS_Store
 /DM_test
+README example.md
