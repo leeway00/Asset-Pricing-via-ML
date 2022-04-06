@@ -1,12 +1,10 @@
 # Empirical asset pricing via Machine Learning in the Korean market
 
-**If you have any idea to further this repository, please leave me any issue:)**
+- If you have any idea to further this repository, please leave me any issue:)
 
 ## Methodology
-I replicated Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020
-
-I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are not exactly same with the Gu, Kelly, and Xiu's paper
-
+I replicated **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020**\
+I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are not exactly same with the Gu, Kelly, and Xiu's paper\
 The codes are now very congested with insufficient docstrings
 
 ## File explanation
