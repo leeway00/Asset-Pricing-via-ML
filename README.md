@@ -1,11 +1,12 @@
 # Empirical asset pricing via Machine Learning in the Korean market
 
 - If you have any idea to further this repository, please leave me any issue :)
+- Cautious: The codes are now very congested with insufficient docstrings
 
 ## Methodology
-This project is replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.\
-I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are not exactly same with the Gu, Kelly, and Xiu's paper\
-The codes are now very congested with insufficient docstrings
+- This project is replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.\
+- I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are not exactly same with the Gu, Kelly, and Xiu's paper\
+
 
 ## File explanation
 1. Marketdata_crawler: crawls monthly price data from Korea Exchange(한국거래소). It requires a list of tickers, which also can be gathered by crawling Korea Exchange. I didn't uploaded the ticker csv file I used since the tickers will be changed in future. Also, it does not contains the tickers that temporarily ceased to trade.
