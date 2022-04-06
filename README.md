@@ -18,6 +18,7 @@ The codes are now very congested with insufficient docstrings
     4. Market portfolio
     5. Moving Average
     6. Momentum
+    7. PER
 3. ML_pricing: machine learning pricing models. OLS, ElasticNet, PCR, PLS, RandomForest, GBR
 4. NN_pricing: Neural net settings of pricing models
 5. NN_pricing_changed_setting: I tested several settings of neural nets by changing the optimizers and training methods
