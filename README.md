@@ -1,12 +1,14 @@
 # Empirical asset pricing via Machine Learning in the Korean market
-Look at **resaerch-result.pdf** for the results of the research.//
+Look at **resaerch-result.pdf** for the result value of the jupyter notebooks.
 
 - If you have any idea to further this repository, please leave me any issue :)
-- Cautious: The codes are now very congested with insufficient docstrings
+- Cautious: the codes are now very congested with insufficient docstrings
+    - When I first wrote the notebook, there was no plan to share this in public
+    - Currently cleaning up and moving the code into .py files
 
 ## Methodology
 - This project is replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.
-- I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are not exactly same with the Gu, Kelly, and Xiu's paper.
+- I expanded neural net models suggested in the paper into models with deeper structure, but the factors I used here are less than the paper.
 
 
 ## File explanation
