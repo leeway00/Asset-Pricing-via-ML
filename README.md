@@ -1,4 +1,5 @@
 # Empirical asset pricing via Machine Learning in the Korean market
+Look at **resaerch-result.pdf** for the results of the research.//
 
 - If you have any idea to further this repository, please leave me any issue :)
 - Cautious: The codes are now very congested with insufficient docstrings
