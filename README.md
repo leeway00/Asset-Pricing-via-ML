@@ -3,7 +3,6 @@ Look at **resaerch-result.pdf** for the result value of the jupyter notebooks.
 
 - If you have any idea to further this repository, please leave me any issue :)
 - Cautious: the codes are now very congested with insufficient docstrings
-    - When I first wrote the notebook, there was no plan to share this in public
     - Currently cleaning up and moving the code into .py files
 
 ## Methodology
