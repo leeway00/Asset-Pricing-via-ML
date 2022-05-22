@@ -136,12 +136,25 @@ dmypy.json
 #.idea/
 
 #files
-*.csv
-.csv
+result.csv
+error.csv
+/Predictions
+/TestResults
+
 /NN_save
 /locals_crash
 .DS_Store
 /DM_test
+
+/OLD_files
+
+/Data/factor.csv
+/Data/data.csv
+/Data/old_data
+/Data/us_data
+/Data/temp_data
 README example.md
+factor_generating*
 
 *.hwp
+
