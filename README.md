@@ -11,7 +11,7 @@ Look at **resaerch-result.pdf** for the result value of the jupyter notebooks.
 
 
 ## File explanation
-1. Marketdata_crawler: crawls monthly price data from Korea Exchange(한국거래소). It requires a list of tickers, which also can be gathered by crawling Korea Exchange. I didn't uploaded the ticker csv file I used since the tickers will be changed in the future. Also, it does not contain the tickers that temporarily ceased to trade.
+1. ~~Marketdata_crawler: crawls monthly price data from Korea Exchange(한국거래소). It requires a list of tickers, which also can be gathered by crawling Korea Exchange. I didn't uploaded the ticker csv file I used since the tickers will be changed in the future. Also, it does not contain the tickers that temporarily ceased to trade.~~ Currently dismissed the crawler
 2. The factors that I used initially are"
     Beta, SMB, HML, Market portfolio, Moving Average, Momentum, PER
 3. ML_pricing: machine learning pricing models. OLS, ElasticNet, PCR, PLS, RandomForest, GBR
