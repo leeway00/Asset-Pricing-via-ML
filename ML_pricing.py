@@ -122,7 +122,7 @@ class Regressions:
         model = RandomForestRegressor(random_state=rnd)
         params = {
             'n_estimators': [50, 100, 200],
-            'max_depth': np.arange(1, dt.tree_max_depth+1, 2),
+            'max_depth': np.arange(1, dt.tree_.max_depth+1, 2),
         }
         reg = self.execute(model, params, 'rf')
         return reg
