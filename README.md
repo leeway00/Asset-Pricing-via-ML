@@ -7,7 +7,7 @@ Look at **resaerch-result.pdf** for the result value of the jupyter notebooks.
 
 ## Methodology
 - This project is a replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.
-- I expanded the neural net models suggested in the paper into models with deeper structure, but the factors I used here are **a lot less than in the paper.**
+- I expanded the neural net models suggested in the paper into models with deeper structure, but the factors I used here are <strong>a lot less than in the paper.</strong>
 
 
 ## File explanation
