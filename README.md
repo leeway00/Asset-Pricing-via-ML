@@ -2,7 +2,7 @@
 
 - If you have any idea to further this repository, please leave me any issue :)
 - Cautious: the codes are now very congested with insufficient docstrings
-- This repo is mainly for code sharing for the works in similar settings - due to the problems below.
+- This repo is mainly for **code sharing** for the works in similar settings - due to the problems below.
     - The main reason I deleted the data, and revising whole code is a survivorship bias - data of delisted stocks were not included in my research. I realized this very late, you can look up the previous result at resaerch-result.pdf for the result value of the previous jupyter notebooks.
     - Another reason is that, I lost fine tuning settings of Neural Net codes.
     - Currently cleaning up and moving the code into .py files
