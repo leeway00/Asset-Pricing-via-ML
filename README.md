@@ -1,10 +1,6 @@
 # Empirical asset pricing via Machine Learning in the Korean market
 
-- If you have any idea to further this repository, please leave me any issue :)
-- This repo is mainly for **Code Sharing** for the works in similar settings - due to the problems below.
-    - The main reason I deleted the data, and revising whole code is a survivorship bias - data of delisted stocks were not included in my research and I realized this very late. You can look up the (possibly problematic) result values at resaerch-result.pdf.
-    - Another reason is that, I lost fine tuning settings of Neural Net codes.
-    - Currently cleaning up and moving the code into .py files
+- Currently cleaning up and moving the code into .py files
 
 ## Methodology
 - This project is a replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.
