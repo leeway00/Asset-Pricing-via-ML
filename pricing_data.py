@@ -14,8 +14,10 @@ def get_data():
     for file in files:
         res.append(pd.read_csv(krx+file, header=None).values)
     res = np.concatenate(res)
-    data = pd.DataFrame(res[1:], columns=res[0]).astype({'date': 'datetime64'})
-
+    columns = pd.read_csv(krx+"factor_1.csv", nrows=1).columns  # columns names only appear to be in this file
+    data = pd.DataFrame(res, columns=columns)
+    data["date"] = pd.to_datetime(data.date, errors="coerce")
+    data = data[~data.date.isna()]  # remove wrong dates
     data['ticker'] = data.ticker.apply(lambda x: '0'*(6-len(str(x)))+str(x))
     data = data.replace([np.inf, -np.inf],
                         np.nan).dropna(subset=['target', 'mom4']).fillna(0)
@@ -23,6 +25,9 @@ def get_data():
     cols = [i for i in cols if 'size_bin_prec' not in i]
     data = data[cols]
     data.set_index('date', inplace=True)
+    for col in data.columns[data.dtypes!=np.float64]:
+        data[col] = pd.to_numeric(data[col], errors='coerce')
+    data = data.replace([np.inf, -np.inf],np.nan).dropna()
     return data
 
 
