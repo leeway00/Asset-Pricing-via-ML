@@ -27,7 +27,7 @@ rnd = 77  # random_state
 
 
 class Regressions:
-    def __init__(self, year, y, x, y_test, x_test):
+    def __init__(self, year, x, y, x_test, y_test):
         self.y = y.values.reshape(-1, 1)
         self.x = x.values
         self.y_test = y_test.values.reshape(-1, 1)
