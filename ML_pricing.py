@@ -27,7 +27,7 @@ rnd = 77  # random_state
 
 
 class Regressions:
-    def __init__(self, year, y, x, y_test, x_test):
+    def __init__(self, year, x, y, x_test, y_test):
         self.y = y.values.reshape(-1, 1)
         self.x = x.values
         self.y_test = y_test.values.reshape(-1, 1)
@@ -140,16 +140,16 @@ class Regressions:
         return reg
 
     def fit_all(self):
-        try:
-            for i in self.models:
+        for i in self.models:
+            try:
                 getattr(self, i)
-        except:
-            print(f'Error while model {i} in {self.year}')
-            self.error.append((self.year, i))
+            except:
+                print(f'Error while model {i} in {self.year}')
+                self.error.append((self.year, i))
 
-        with open('error.csv', 'a') as f:
-            writer = csv.writer(f)
-            writer.writerows(self.error)
+                with open('error.csv', 'a') as f:
+                    writer = csv.writer(f)
+                    writer.writerows(self.error)
 
         result = pd.DataFrame(self.res, columns=self.res_cols)
         if 'result.csv' in os.listdir():
