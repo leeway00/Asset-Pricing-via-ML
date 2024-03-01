@@ -2,7 +2,7 @@
 
 Caveats:
 - Cleaning up and moving the code into .py files
-- Neural Net notebooks are very messy and outdated; they should be revised
+- Some notebooks are very messy and outdated; they should be revised
 
 ## Methodology
 - This project is a replication of **Gu, Kelly, and Xiu, "Empirical Asset Pricing via Machine Learning." Review of Financial Studies, 2020** using data from thr Korean stock market, both KOSPI and KOSDAQ.
